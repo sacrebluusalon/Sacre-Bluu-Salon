@@ -360,6 +360,10 @@ h4 {
     margin-top: 2rem;
 }
 
+.booking-grid.even {
+    grid-template-columns: 1fr 1fr;
+}
+
 .booking-info h2 {
     color: #66766c;
     margin-bottom: 0.8rem;
@@ -824,7 +828,8 @@ h4 {
         grid-template-columns: 1fr;
     }
 
-    .booking-grid {
+    .booking-grid,
+    .booking-grid.even {
         grid-template-columns: 1fr;
     }
 
